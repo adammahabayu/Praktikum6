@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar CSS Grid box</title>
+    <style>
+        .tempat_grid {
+            display: grid; 
+            grid-template-columns: auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-gap: 50px; /* Perubahan properti */
+        }    
+        .item_grid {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tampilan:</h1>
+    <div class="tempat_grid">
+        <div class="item_grid">1</div>
+        <div class="item_grid">2</div>
+        <div class="item_grid">3</div>
+        <div class="item_grid">4</div>
+        <div class="item_grid">5</div>
+        <div class="item_grid">6</div>
+        <div class="item_grid">7</div>
+        <div class="item_grid">8</div>
+        <div class="item_grid">9</div>
+        <div>Kesimpulan skenario 1: Ujicoba menggunakan CSS Grid berhasil diimplementasikan dengan menata elemen-elemen dalam grid yang memiliki tiga kolom secara horizontal. Setiap item memiliki gaya yang didefinisikan dalam kelas "item_grid".</div>
+        <div>Kesimpulan skenario 2: Dengan menggunakan properti display inline-grid, elemen-elemen dalam container grid akan ditampilkan secara inline tanpa mengubah struktur dokumen HTML. Ini memungkinkan tata letak elemen-elemen tersebut diatur dalam grid tanpa mempengaruhi tata letak elemen-elemen lainnya secara vertikal.</div>
+        <div>Kesimpulan skenario 3: Penambahan properti grid-column-gap dan grid-row-gap pada container .tempat_grid berhasil mengatur jarak antar kolom dan baris dalam grid. Ini memungkinkan penataan elemen-elemen dengan lebih teratur dan proporsional.</div>
+        <div>Kesimpulan skenario 4: Penggunaan properti grid-gap: 50px pada container grid berhasil menghasilkan jarak antara setiap elemen grid sebesar 50px. Ini memudahkan dalam mengatur tata letak elemen-elemen dalam grid dengan lebih fleksibel dan estetis.</div>
+    </div>
+</body>
+</html>

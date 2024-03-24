@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>    
+        .grid-container {
+            display: grid;
+            grid-gap: 58px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-columns: auto auto auto auto; /* Penambahan untuk skenario 2 */
+        }
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: rgba(255, 255, 255, 8.8);
+            padding: 20px;      
+        }
+        .item {    
+            background-color: rgba(255, 255, 255, 8.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }    
+    </style>    
+</head>
+    
+<body>      
+    <div class="grid-container">    
+        <div class="item1">1</div>   
+        <div class="item">2</div>    
+        <div class="item">3</div>    
+        <div class="item">4</div>    
+        <div class="item">5</div>    
+        <div class="item">6</div>    
+        <div class="item">7</div>    
+        <div class="item">8</div>    
+        <div >Kesimpulan skenario 1: Dengan mengatur grid-column-start dan grid-column-end, elemen pertama dalam grid container memulai di kolom 1 dan berakhir di kolom 3.</div>    
+        <div >Kesimpulan skenario 2: Dengan mengatur grid-template-columns, lebar setiap kolom dalam grid container dapat ditentukan secara spesifik, memberikan fleksibilitas dalam mengatur tata letak elemen-elemen dalam grid.</div>    
+    </div>    
+
+</body>
+</html>

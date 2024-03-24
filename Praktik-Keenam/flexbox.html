@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Flex Box</title>
+    <style>
+        .wadah_flex {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center; /* Menengahkan elemen-elemen dalam flex container secara horizontal */
+        }
+        
+        .wadah_flex > div {
+            background-color: #ffd700; /* Warna background disesuaikan (misalnya kuning keemasan) */
+            margin: 10px;
+            padding: 15px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wadah_flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+
+    <p>kesimpulan skenario 1 adalah Dengan menambahkan warna background pada elemen flex container dan elemen-elemen di dalamnya, kita dapat dengan jelas melihat bagaimana flexbox mengatur penempatan dan penataan dari elemen-elemen tersebut secara fleksibel, sesuai dengan aturan-aturan yang diberikan.</p>
+    <p>kesimpulan skenario 2 adalah Dengan menambah gaya CSS tersebut, setiap div anak dari kelas "wadah_flex" akan memiliki latar belakang kuning keemasan, margin 10 piksel, padding 15 piksel, dan ukuran font 30 piksel.</p>
+    <p>kesimpulan skenario 3 adalah Dengan menambah jumlah div dalam class "wadah_flex" menjadi 12 dan mengubah nilai properti "flex-direction", kita dapat melihat bagaimana perubahan jumlah dan arah penempatan elemen-elemen tersebut berpengaruh terhadap tampilan flexbox. Ini menunjukkan fleksibilitas dari flexbox dalam menata elemen-elemen secara dinamis sesuai dengan aturan-aturan yang diberikan.</p>
+    <p>kesimpulan skenario 4 adalah Dengan menambah properti CSS flex-wrap pada class wadah_flex, kita dapat mengontrol bagaimana elemen-elemen flexbox akan dibungkus (wrap) ke baris baru ketika ruang yang tersedia terlampaui.</p>
+    <p>kesimpulan skenario 5 adalah Dengan menetapkan flex-flow ke "row wrap", flex container akan menata elemen-elemennya dalam satu baris secara horizontal, dan bila tidak muat akan melanjutkan ke baris berikutnya (wrap), sesuai dengan kebutuhan tata letak. Ini memungkinkan pengaturan fleksibel dan responsif dari elemen-elemen tersebut, terutama saat ukuran layar berubah.</p>
+    <p>kesimpulan skenario 6 adalah Dengan menetapkan justify-content ke "center", elemen-elemen dalam flex container akan ditempatkan di tengah secara horizontal. Ini memungkinkan penataan yang rapi dan estetis dari elemen-elemen tersebut dalam container flex, terutama ketika jumlah elemen bervariasi.</p>
+</body>
+</html>
